@@ -5,6 +5,10 @@ import {IoMailOutline, IoChevronForwardCircle, IoStar}
 import {BsChatRightTextFill} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
 import {HiMenuAlt1} from 'react-icons/hi';
+import {CiFacebook} from 'react-icons/ci';
+import {TiSocialTwitterCircular} from 'react-icons/ti';
+import {AiOutlineLinkedin} from 'react-icons/ai';
+import {AiOutlineInstagram} from 'react-icons/ai';
 import Card from './component/Card'
 import desktop from './images/desktop.png'
 
@@ -183,6 +187,7 @@ function App() {
               <motion.span variants={letter}>t</motion.span>
               <motion.span variants={letter}>e</motion.span>
             </motion.span>
+            <div className='secondLine'>
             <motion.span variants={lastName} initial="initial" animate='animate' className='first'>
               <motion.span variants={letter}>T</motion.span>
               <motion.span variants={letter}>e</motion.span>
@@ -199,8 +204,9 @@ function App() {
               <motion.span variants={letter}>s</motion.span>
               <motion.span variants={letter}>.</motion.span>
             </motion.span>
+            </div>
           </motion.h2>
-          <motion.p variants={fadeInUp}>ALerting today for Better Tomorrow <br />Here, Security Never Sleeps</motion.p>
+          <motion.p variants={fadeInUp} className="quote">ALerting today for Better Tomorrow <br />Here, Security Never Sleeps</motion.p>
           <motion.div className='btn_group' variants={stagger}>
             <motion.div className='btn btn_primary' variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Live Chat
               <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
@@ -227,15 +233,89 @@ function App() {
         </div>
 
         <motion.div className='right_content_wrapper'>
-          <motion.img src={desktop} style={{height:450}} alt="desktop" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
+          <motion.img src={desktop} /*style={{height:450}}*/className="imgStyle" alt="desktop" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
         </motion.div>
 
       </motion.div>
 
        <Card/>
 
-      <footer>
+      <footer className='footer'>
+        <div className='sb_footer section_padding'>
+          <div className='sb_footer-links'>
+            <div className='sb_footer-links_div'>
+              <h4>For Business</h4>
+              <a href="/employer" className='link'>
+                <p>Employer</p>
+              </a>
+              <a href="/healthplan" className='link'>
+                <p>Healthplan</p>
+              </a>
+              <a href="/individual" className='link'>
+                <p>Individual</p>
+              </a>
+            </div>
+            <div className='sb_footer-links_div'>
+              <h4>Resources</h4>
+              <a href="/resource" className='link'>
+                <p>Resource center</p>
+              </a>
+              <a href="/resource" className='link'>
+                <p>Testimonials</p>
+              </a>
+              <a href="/resource" className='link'>
+                <p>STV</p>
+              </a>
+            </div>
+            <div className='sb_footer-links_div'>
+              <h4>Partners</h4>
+              <a href="/employer" className='link'>
+                <p>Swing Tech</p>
+              </a>
+            </div>
+            <div className='sb_footer-links_div'>
+              <h4>Company</h4>
+              <a href="/about" className='link'>
+                <p>About</p>
+              </a>
+              <a href="/press" className='link'>
+                <p>Press</p>
+              </a>
+              <a href="/career" className='link'>
+                <p>Career</p>
+              </a>
+              <a href="/contact" className='link'>
+                <p>Contact</p>
+              </a>
+            </div>
+            <div className='sb_footer-links_div'>
+              <h4>Coming soon on</h4>
+              <div className='socialmedia'>
+                <p><CiFacebook style={{fontSize:"25px"}} /></p>
+                <p><TiSocialTwitterCircular style={{fontSize:"25px"}}/></p>
+                <p><AiOutlineLinkedin style={{fontSize:"25px"}}/></p>
+                <p><AiOutlineInstagram style={{fontSize:"25px"}}/></p>
+              </div>
+            </div>
+          </div>
 
+          <hr />
+
+          <div className='sb_footer-below'>
+            <div className='sb_footer-copyright'>
+              <p>
+                @{new Date().getFullYear()} CodeInn. All right reserved.
+              </p>
+            </div>
+            <div className='sb_footer-below-links'>
+              <a href="/terms"><div>Terms and Conditions</div></a>
+              <a href="/privacy"><div>Privacy</div></a>
+              <a href="/security"><div>Security</div></a>
+              <a href="/cookie"><div>Cookie and Declaration</div></a>
+            </div>
+          </div>
+
+        </div>
       </footer>
 
     </motion.div>
