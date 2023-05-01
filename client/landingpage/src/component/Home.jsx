@@ -1,8 +1,7 @@
 import '../App.scss';
-import {FaBehance, FaDribbble} from 'react-icons/fa';
-import {IoMailOutline, IoStar}
- from 'react-icons/io5';
+import {IoMailOutline, IoStar} from 'react-icons/io5';
 import {BsChatRightTextFill} from 'react-icons/bs';
+import {FaWhatsapp, FaPhone} from 'react-icons/fa'
 import {IconContext} from 'react-icons';
 import {HiMenuAlt1} from 'react-icons/hi';
 import Cards from './Cards'
@@ -12,6 +11,7 @@ import desktop from '../images/desktop.png'
 import {Link} from "react-router-dom";
 
 import {motion} from 'framer-motion';
+
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
 
@@ -143,14 +143,23 @@ function Home() {
         <motion.div className="logo_wrapper" variants={header}>SOFT<span>LINES</span></motion.div>
         <motion.div className='menu_container' variants={stagger}>
           <motion.span variants={header}>
-            <IconContext.Provider value={{color:"#000", size:"18px", className:"icon_container"}}>
-              <div className='icon' id='icon1'><FaBehance/></div>
-              <div className='icon'><FaDribbble/></div>
+            <IconContext.Provider value={{color:"#14da8f", size:"30px", className:"icon_container"}}>
+              <div className='icon' style={{cursor:'pointer'}} id='icon1'><a
+        href="https://wa.me/7904577526"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><FaWhatsapp/></a></div>
             </IconContext.Provider>
+            <IconContext.Provider value={{size:"25px", className:"icon_continer"}}>
+            <div className='icon' style={{cursor:'pointer'}}> <a href="tel:7904577526"><FaPhone/></a></div>
+            </IconContext.Provider>
+              
+            
           </motion.span>
           <motion.span variants={header} className="email">
-            <IconContext.Provider value={{color:"#000", size:"18px"}}>
-              <div className='icon'><IoMailOutline/></div>
+            <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
+              <div className='icon'><a href="mailto:aathavans.20it@kongu.edu"><IoMailOutline/></a></div>
               hellow@example.com
             </IconContext.Provider>
           </motion.span>
