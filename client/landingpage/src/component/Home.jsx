@@ -155,9 +155,6 @@ function Home() {
             </IconContext.Provider>
           </motion.span>
           <motion.span className='menu' variants={header}>
-            {/* <span></span>
-            <span></span>
-            <span></span> */}
             <div className='icon' style={{ fontSize:"25px" }} > <HiMenuAlt1/> </div>
           </motion.span>
         </motion.div>
@@ -230,7 +227,7 @@ function Home() {
         </div>
 
         <motion.div className='right_content_wrapper'>
-          <motion.img src={desktop} /*style={{height:450}}*/className="imgStyle" alt="desktop" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
+          <motion.img src={desktop} className="imgStyle" alt="desktop" initial={{x:200, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:.5, delay:0.8}}/>
         </motion.div>
 
       </motion.div>

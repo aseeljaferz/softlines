@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 
 .bg-img{
@@ -11,15 +12,18 @@
 }
 .main-heading{
     
-    color: #077e5f;
-    background: -webkit-linear-gradient(#9fe8a0, #077e5f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 10vh;
+  background: -webkit-linear-gradient(#05febc, #2d8e0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+    font-weight: 400;
     text-align: center;
+    
+
 }
 .heading{
     color: #14da8f;
+    font-weight: 400;
 }
 
 /* *{
@@ -32,7 +36,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    height: 71%;
+    height: 85%;
     border: 2px solid ;
     border-color: #3fefc0;
     border-image: 
@@ -59,7 +63,7 @@
   --white: #ffffff;
   --bg: #f5f5f5;
 }
-/* 
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -81,9 +85,9 @@ html {
   html {
     zoom: 2.5;
   }
-} */
+}
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 1.3rem;
 }
 
@@ -99,10 +103,18 @@ html {
 
 ::-webkit-scrollbar-track {
   background: #f9f9f9;
-} */
+}
+
+.swiper-button-prev:after{
+  display: none;
+}
+.ionicon-fill-none {
+  display: none;
+}
+
 
 body {
-  /* font-size: 1.2rem; */
+  font-size: 1.6rem;
   background: var(--bg);
 }
 
@@ -236,7 +248,3 @@ body {
     overflow-x: hidden !important;
 }
 
-.footer-comp{
-  /* background-color: #94FFD6; */
-  margin-top: 5%;
-}
