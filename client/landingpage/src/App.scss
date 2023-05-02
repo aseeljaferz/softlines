@@ -4,6 +4,13 @@
     padding :0;
     box-sizing :border-box; 
 }
+
+@media  (max-width:850px) {
+    *{
+        
+    }
+}
+
 $light_green :#e3ffea;
 $dark_green :#14da8f;
 $black :#000000;
@@ -194,11 +201,6 @@ header{
                 
             }
         }
-        @media screen and (max-width:850px) {
-            .btn_primary, .bnt_secondary{
-                flex:55% ;
-            }
-        }
         .review_container{
             margin-top: 50px;
             p.total_review{
@@ -360,4 +362,16 @@ header{
     }
 }
 
+
+
+//responsive media screen
+
+@media screen and (max-width:850px) {
+    .btn_primary{ 
+        min-width: 10px;
+    }
+    .bnt_secondary{
+        min-width: 10px;
+    }
+}
 
