@@ -239,11 +239,11 @@ header{
             width: 100%;
         }
     }
-    @media screen and (max-width:850px){
-        .right_content_wrapper{
-            margin-top: -110%;
-        }
-    }
+    // @media screen and (max-width:850px){
+    //     .right_content_wrapper{
+    //         margin-top: -110%;
+    //     }
+    // }
 }
 
 .imgStyle{
@@ -366,12 +366,12 @@ header{
 
 //responsive media screen
 
-@media screen and (max-width:850px) {
-    .btn_primary{ 
-        min-width: 10px;
-    }
-    .bnt_secondary{
-        min-width: 10px;
-    }
-}
+// @media screen and (max-width:850px) {
+//     .btn_primary{ 
+//         min-width: 10px;
+//     }
+//     .bnt_secondary{
+//         min-width: 10px;
+//     }
+// }
 
