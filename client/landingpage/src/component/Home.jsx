@@ -6,7 +6,7 @@ import {IconContext} from 'react-icons';
 import {HiMenuAlt1} from 'react-icons/hi';
 import Cards from './Cards'
 import { Footer } from './Footer';
-import desktop from '../images/desktop.png'
+import desktop from '../assets/images/desktop.png'
 // import Product from './Product';
 import {Link} from "react-router-dom";
 

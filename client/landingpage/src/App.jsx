@@ -6,6 +6,7 @@ import Home from './component/Home';
 import About from './component/About';
 import ContactForm from './component/ContactForm';
 import {BrowserRouter ,Router, Routes, Route, Link} from "react-router-dom";
+import Chatbot from './component/Chat-bot';
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/contact' element={<ContactForm/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/products' element={<Product/>}/>
+            <Route path='/chatbot' element={<Chatbot/>}/>
           </Routes>
       </BrowserRouter>
       </div>
