@@ -1,0 +1,19 @@
+$light_green :#e3ffea;
+$dark_green :#14da8f;
+$black :#000000;
+$white :#fff;
+
+
+.bot-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    background-color: $dark_green;
+    color: $white;
+    margin-right: 15px;
+    margin-top: 4px;
+}
