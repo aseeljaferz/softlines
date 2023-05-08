@@ -1,16 +1,12 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import Bot_avatar from "./bot_components/bot_avatar/Bot_avatar";
+import Todos from "./bot_components/Todos/Todos";
 
 
 const Config = {
-  initialMessages: [createChatBotMessage(`Hello world`)],
 
-  botName: "Sofliza",
-
-  customComponents:{
-    botAvatar: (props) => <Bot_avatar {...props} />
-  },
+  botName: "Sofliza", 
 
   customStyles: {
     //overrides the chstbot message styles
@@ -23,12 +19,25 @@ const Config = {
     }
   },
 
-  state: {
-    movieTitles: [
-      "The lord of the rings", 
-      "con air"
-    ]
-  }
+  initialMessages: [createChatBotMessage(`Hello world`,)],
+
+  // customComponents:{
+  //   botAvatar: (props) => <Bot_avatar {...props} />
+  // },
+
+  
+
+  // state: {
+  //   todos: []
+  // },
+
+  // widgets: [
+  //   {
+  //     widgetName: "todos",
+  //     widgetFunc: (props) => <Todos {...props} />,
+  //     mapStateToProps: ["todos"],
+  //   }
+  // ]
 
 }
 
