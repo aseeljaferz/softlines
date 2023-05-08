@@ -21,14 +21,15 @@ $white :#fff;
     align-items: center;
     width: 100%;
 }
-// body{
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-//     background-color: $white;
-//     overflow-x: hidden;
-//     font-family: 'Poppins', sans-serif;
-// }
+
+body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
 
 .email{
     margin: auto;

@@ -1,4 +1,4 @@
-/*.contactform{
+.contactform{
     background-color: #f0fbf7;
     height: 120vh;
 }
@@ -21,10 +21,10 @@ h4 {
     font-size: 20px;
     color: #494949;
     line-height: 1.5;
-}*/
+}
 
 /* ///// inputs /////*/
-/*
+
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
     font-size: 0.75em;
     color: rgb(3, 61, 130);
@@ -67,9 +67,9 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     width: 650px;
     max-width: 100%;
     
-}*/
+}
 
-/* input,
+input,
 textarea {
     padding: 30px;
     border: 0;
@@ -81,9 +81,9 @@ textarea {
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 2px 2px 5px  #c1c1c2;
-} */
+} 
 
-/* input:focus,
+input:focus,
 textarea:focus { outline: 0; }
 
 input:focus ~ span,
@@ -134,4 +134,4 @@ textarea {
         text-align:center;
     }
 }
- */
+ 
