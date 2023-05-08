@@ -19,6 +19,15 @@ class MessageParser {
     // }
 
     console.log(message);
+    const lowercase = message.toLowerCase();
+
+    if(lowercase.includes("hello")){
+      this.actionProvider.greet();
+    }
+
+    if(lowercase.includes("yes")){
+      this.actionProvider.handleOptionYesforHelp();
+    }
 
   }
 }

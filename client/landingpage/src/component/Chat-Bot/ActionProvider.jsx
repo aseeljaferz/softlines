@@ -29,6 +29,28 @@ class ActionProvider {
   //   }))  
   // }
 
+  greet = () => {
+    const message = this.createChatBotMessage("Hello Friend.")
+    this.addMessageToState(message);
+  }
+
+  handleOptionYesforHelp = () =>{
+    const message = this.createChatBotMessage(
+      "Fentastic!, Here are the things I can help you with.",
+      {
+      widget: "handleOptionYesforHelp"
+      }
+    );
+    this.addMessageToState(message)
+  }
+
+  addMessageToState = (message) => {
+    this.setState((prevState) => ({
+      ...prevState,
+      messages: [...prevState.messages, message],
+    }))
+  }
+
  }
  
  export default ActionProvider;
