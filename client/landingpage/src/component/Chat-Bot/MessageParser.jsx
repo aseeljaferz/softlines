@@ -7,7 +7,7 @@ class MessageParser {
   }
   
   parse(message) {
-    const lowercase = message.toLowerCase()
+    const lowercase = message
     console.log(this.state);
 
     if(lowercase.includes("hello world")){
