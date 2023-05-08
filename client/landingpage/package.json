@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "bootstrap": "^5.2.3",
     "emailjs": "^4.0.1",
+    "firebase": "^9.21.0",
     "framer-motion": "^10.12.4",
     "node-sass": "^8.0.0",
     "npm-check-updates": "^16.10.9",
