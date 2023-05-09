@@ -6,7 +6,7 @@ function HelpYes(props) {
     const options = [
         {
           text: "find about us ",
-          handler: props.actionProvider.handleOptionYesforHelp,
+          handler: props.actionProvider.handleOptionNaviAbout,
           id: 1,
         },
         { 
