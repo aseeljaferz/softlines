@@ -14,6 +14,7 @@ import {motion} from 'framer-motion';
 import Navbar from './Navbar'
 
 
+
 let easeing = [0.6, -0.05, 0.01, 0.99];
 
 const stagger = {
@@ -173,7 +174,7 @@ function Home() {
           </motion.h2>
           <motion.p variants={fadeInUp} className="quote">ALerting today for Better Tomorrow <br />Here, Security Never Sleeps</motion.p>
           <motion.div className='btn_group' variants={stagger}>
-            <motion.div className='btn btn_primary' variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}} >Live Chat
+            <motion.div className='btn btn_primary' variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}} ><Link to="/chatbot" className="chatbot-link">Chat</Link>
               <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                 <BsChatRightTextFill/>
               </IconContext.Provider> 
