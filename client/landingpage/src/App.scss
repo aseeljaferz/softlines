@@ -46,11 +46,23 @@ body{
 //     opacity: 10;
 // }
 
+
+.headerBox{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
 header{
     @extend .dflex;
-    justify-content: space-between;
-    padding:0 13%;
-    height: 120px;
+    justify-content: space-around;
+    padding:0 5%;
+    height: 65px;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    background-color: $white;
+    
     .logo_wrapper{
         font-size: 32px;
         font-weight: 600px;
@@ -99,8 +111,8 @@ header{
             }
             &.menu{
                 @extend .dflex;   
-                width: 56px;
-                height: 56px;
+                width: 50px;
+                height: 50px;
                 background-color: $dark_green;
                 color: $white;
                 border-radius: 8px;

@@ -2,6 +2,7 @@ import React from 'react'
 import { Footer } from './Footer'
 import {motion} from 'framer-motion';
 import './about.css'
+import Navbar from './Navbar';
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
 
@@ -85,6 +86,7 @@ const About = () => {
   return (
     <>
     <motion.div initial='initial' animate='animate'>
+    <Navbar/>
      <section className='about'>
         <div className="row">
             <div className="column">
@@ -95,7 +97,7 @@ const About = () => {
             <div className="column">
             <div className="tabs">
                      <motion.span variants={header}>
-                        <h2>About</h2>
+                        <h2>About Us</h2>
                     </motion.span>
             </div>
                     <div className="tab-content">

@@ -1,10 +1,16 @@
+$light_green :#e3ffea;
+$dark_green :#14da8f;
+$black :#000000;
+$white :#fff;
+
 .contactform{
     background-color: #f0fbf7;
     height: 120vh;
+    font-family: 'Poppins';font-size: 22px;
 }
 
 #contactUs{
-   font-family: 'Courier New', Courier, monospace;
+   /* font-family: 'Courier New', Courier, monospace; */
     font-weight: 600;
     font-size: 72px;
     color: #2ab600;
@@ -12,12 +18,13 @@
 }
 
 .h4 {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-weight: 400;
     font-size: 20px;
     color: #494949;
     line-height: 1.5;
 }
+
 
 
 
@@ -99,34 +106,65 @@
     margin: 20px auto 25px auto;
 }
 
+
 .submit-btn {
     float: right;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 7px 35px;
-    border-radius: 60px;
-    display: inline-block;
-    background-color: #2ab600;
-    border-color: #1eff0098;
-    color: white;
-    font-size: 18px;
+    align-items: center;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+    box-sizing: border-box;
     cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
-              0 2px 10px 0 rgba(0,0,0,0.07);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
+    display: flex;
+    font-family: 'Poppins';font-size: 22px;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+    background-color: rgb(41, 39, 39);
+    color: #fff;
+    transition: background-color 1s;
+  }
+  
+  .submit-btn:hover {
+    background: $light_green;
+    box-shadow: $white 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: $black;
+  }
+  
+  .submit-btn:focus,
+  .submit-btn:active {
+    background-color: black;
+    color: white;
+    transition: none;
+  }
+      
 
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-}
+
+
+
 
 @media (max-width: 768px) {
     .submit-btn {
         width:100%;
         float: none;
+        padding: 24px;
         text-align:center;
     }
 }
+
+
+
+/* Parent background */
+// #F5F5FA
  

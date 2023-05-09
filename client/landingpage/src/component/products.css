@@ -49,14 +49,14 @@
     box-shadow: 10px 10px 10px rgba(121, 121, 121, 0.5);
 }
 
-*,
+/* *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-}
+} */
 
 :root {
   --primary: #077e5f;

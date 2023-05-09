@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import './contactForm.css'
+import './contactForm.scss'
 import emailjs from '@emailjs/browser';
 import { Footer } from './Footer';
+import Navbar from './Navbar';
 
 const Result = ()=>{
 	return(
@@ -28,51 +29,52 @@ export default function ContactForm() {
   return (
     <>
     <div className='contactform'>
-    <form onSubmit={sendEmail} >
-      <div class="container">
-	<div class="row">
-			<h1 id='contactUs'>Contact Us</h1>
-	</div>
-	<div class="row">
-			<h4 className='h4' style = {{textAlign : 'center'}}>Feel Free to Contact Us!</h4>
-	</div>
-	<div class="row input-container">
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<input type="text" className='input' name ="fullName"  required />
-					<label>Name</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input wide">
-					<input type="email" className='input' name='email' required />
-					<label>Email</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input wide" style={{float : 'right'}}>
-					<input type="tel" className='input' name='phone' required />
-					<label>Phone Number</label> 
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<textarea name='message' className='textarea' required></textarea>
-					<label>Message</label>
-				</div>
-			</div>
-			<div class="col-xs-12">
-			<button type="submit" class="btn-lrg submit-btn">Send Message</button>
+    	<form onSubmit={sendEmail} >
+      		<div class="container">
 				
+				<div class="row">
+					<Navbar className="nav-style" />
+					<h1 id='contactUs'>Contact Us</h1>
+				</div>
+				<div class="row">
+					<h4 className='h4' style = {{textAlign : 'center'}}>Feel Free to Contact Us!</h4>
+				</div>
+				<div class="row input-container">
+					<div class="col-xs-12">
+						<div class="styled-input wide">
+							<input type="text" className='input' name ="fullName"  required />
+							<label>Name</label> 
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="styled-input wide">
+							<input type="email" className='input' name='email' required />
+							<label>Email</label> 
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="styled-input wide" style={{float : 'right'}}>
+							<input type="tel" className='input' name='phone' required />
+							<label>Phone Number</label> 
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="styled-input wide">
+							<textarea name='message' className='textarea' required></textarea>
+							<label>Message</label>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<button type="submit" class="btn-lrg submit-btn">Send Message</button>
+					</div>
+					<div className='row'>
+						{result ? <Result/> : null}
+					</div>	
+				</div>
 			</div>
-			<div className='row'>
-			{result ? <Result/> : null}
-			</div>	
+		</form>
 	</div>
-</div>
-</form>
-    </div>
-<Footer/>
-</>
+	<Footer/>
+	</>
   )
 }
