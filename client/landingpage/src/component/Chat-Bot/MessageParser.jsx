@@ -29,6 +29,14 @@ class MessageParser {
       this.actionProvider.handleOptionYesforHelp();
     }
 
+    if(lowercase.includes("no")){
+      this.actionProvider.handleOptionNoforHelp();
+    }
+
+    if(lowercase.includes("just checking")){
+      this.actionProvider.handleOptionJustCheckingforHelp();
+    }
+
   }
 }
   
