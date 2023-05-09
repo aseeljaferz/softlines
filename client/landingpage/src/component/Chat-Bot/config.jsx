@@ -2,7 +2,7 @@ import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import Bot_avatar from "./bot_components/bot_avatar/Bot_avatar";
 import Options from "./bot_components/Options/Options.jsx";
-import Help from './bot_components/Options-solution/Help.jsx'
+import HelpYes from './bot_components/Options-solution/HelpYes.jsx'
 
 
 
@@ -21,7 +21,7 @@ const Config = {
     }
   },
 
-  initialMessages: [createChatBotMessage(`Hello, what do you want to learn`,{
+  initialMessages: [createChatBotMessage(`Hello, need any assistance? 😊`,{
     widget: "options"
   })],
 
@@ -32,22 +32,26 @@ const Config = {
     },
     {
       widgetName: "handleOptionYesforHelp",
-      widgetFunc: (props) => <Help {...props} />,
-      props: {
-        questions: [
-          {
-            question: "Do you need help in finding products?",
-            answer: "Then choose form the options",
-            id: 1,
-          },
-          {
-            question: "Want to know about us?",
-            answer: "Then choose form the options",
-            id: 2,
-          },
-        ],
-      },
-    },
+      widgetFunc: (props) => <HelpYes {...props} />
+    }
+    // {
+    //   widgetName: "handleOptionYesforHelp",
+    //   widgetFunc: (props) => <Help {...props} />,
+    //   props: {
+    //     questions: [
+    //       {
+    //         question: "Do you need help in finding products?",
+    //         answer: "Then choose form the options",
+    //         id: 1,
+    //       },
+    //       {
+    //         question: "Want to know about us?",
+    //         answer: "Then choose form the options",
+    //         id: 2,
+    //       },
+    //     ],
+    //   },
+    // },
   ],
 
   // customComponents:{
