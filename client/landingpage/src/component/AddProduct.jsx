@@ -92,8 +92,8 @@ uploadTask.on('state_changed',
     <div>
 
 
-      <Card className="text-center" style={{width:"35rem", marginLeft:"auto", marginRight:"auto"}}>
-            <Card.Header style={{fontFamily:'fantasy' , fontSize:'2.5rem'}}>Soft Line</Card.Header>
+      <Card className="text-center" style={{minWidth:"60%", marginLeft:"auto", marginRight:"auto"}}>
+            <Card.Header style={{fontFamily:'fantasy' , fontSize:'2.5rem',justifyContent:'center'}}>Soft Line</Card.Header>
             <Card.Body>
               <Card.Title>Add New Product</Card.Title>
               <br />
