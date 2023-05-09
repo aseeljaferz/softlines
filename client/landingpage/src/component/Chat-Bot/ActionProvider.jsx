@@ -44,6 +44,22 @@ class ActionProvider {
     this.addMessageToState(message)
   }
 
+  handleOptionNoforHelp = () =>{
+    const message = this.createChatBotMessage(
+      "Okay, no worries! Just remember, I'm here to help anytime you need it!"
+    );
+    this.addMessageToState(message)
+  }
+
+  handleOptionJustCheckingforHelp = () =>{
+    const message = this.createChatBotMessage(
+      "Thanks for reaching out and checking in!"
+    );
+    this.addMessageToState(message)
+  }
+
+  //"Thanks for reaching out and checking in!
+
   addMessageToState = (message) => {
     this.setState((prevState) => ({
       ...prevState,

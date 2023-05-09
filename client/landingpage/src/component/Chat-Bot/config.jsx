@@ -2,7 +2,7 @@ import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import Bot_avatar from "./bot_components/bot_avatar/Bot_avatar";
 import Options from "./bot_components/Options/Options.jsx";
-import HelpYes from './bot_components/Options-solution/HelpYes.jsx'
+import HelpYes from './bot_components/Options-solution/Option_Yes/HelpYes.jsx'
 
 
 

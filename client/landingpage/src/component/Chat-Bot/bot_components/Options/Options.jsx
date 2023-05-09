@@ -11,12 +11,12 @@ function Options(props) {
         },
         { 
             text: "No", 
-            handler: () => {}, 
+            handler: props.actionProvider.handleOptionNoforHelp, 
             id: 2 
         },
         { 
             text: "Just Checking", 
-            handler: () => {}, 
+            handler: props.actionProvider.handleOptionJustCheckingforHelp, 
             id: 3 
         },
       ];
