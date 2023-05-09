@@ -1,16 +1,18 @@
 import React,{useState} from "react";
 import './login.css'
+import { useNavigate } from "react-router-dom";
 
 
 const Login = () => {
   
   const[uname, setUname] = useState('');
   const[password, setPassword] = useState('');
+  const navigate = useNavigate();
   
   function SubmitButton(){
     if (uname==="admin" && password==="admin"){
       alert("Logging in as Admin")
-
+      navigate('/admin')
       return <button type="button">Login</button>
     } else {
       alert("Invalid Credentials!")
