@@ -1,0 +1,17 @@
+.product-image-wrapper{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-image{
+    width: 100%;
+   
+}
+
+.add-prod-btn{
+    &:disabled{
+        background-color: rgb(193, 227, 247);
+        cursor: not-allowed;
+    }
+}
