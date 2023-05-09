@@ -50,7 +50,7 @@ export default function ContactForm() {
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
-				<div class="styled-input" style={{float : 'right'}}>
+				<div class="styled-input wide" style={{float : 'right'}}>
 					<input type="tel" className='input' name='phone' required />
 					<label>Phone Number</label> 
 				</div>

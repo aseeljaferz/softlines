@@ -21,7 +21,7 @@
 
 
 
-.contactform > input:focus ~ label ,.contactform > textarea:focus ~ label ,.contactform > input:valid ~ label ,.contactform > textarea:valid ~ label {
+.wide > input:focus ~ label ,.wide> textarea:focus ~ label ,.wide > input:valid ~ label ,.wide > textarea:valid ~ label {
     font-size: 0.75em;
     color: rgb(3, 61, 130);
     top: -5px;
@@ -65,7 +65,7 @@
     
 }
 
-.contactform > input,.contactform > textarea {
+.wide > input,.wide > textarea {
     padding: 30px;
     border: 0;
     width: 100%;
@@ -78,17 +78,17 @@
     box-shadow: 2px 2px 5px  #c1c1c2;
 } 
 
-.contactform > input:focus,
-.contactform > textarea:focus { outline: 0; }
+.wide> input:focus,
+.wide > textarea:focus { outline: 0; }
 
-.contactform > input:focus ~ span,
-.contactform > textarea:focus ~ span,.contactform > email:focus ~ span {
+.wide > input:focus ~ span,
+.wide > textarea:focus ~ span,.wide > email:focus ~ span {
     width: 100%;
     -webkit-transition: all 0.075s ease;
     transition: all 0.075s ease;
 }
 
-.contactform > textarea {
+.wide > textarea {
     width: 100%;
     /* min-height: 15em; */
 }
