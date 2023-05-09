@@ -1,10 +1,12 @@
 import React from 'react'
 import {IconContext} from 'react-icons';
-import {FaWhatsapp, FaPhone} from 'react-icons/fa'
+import {FaWhatsapp, FaPhone} from 'react-icons/fa';
+import { FaArrowLeft } from 'react-icons/fa';
 import {IoMailOutline} from 'react-icons/io5';
 import {HiMenuAlt1} from 'react-icons/hi';
 import {motion} from 'framer-motion';
 import '../App.scss'
+import { useNavigate, useLocation } from 'react-router-dom';
 
 let easeing = [0.6, -0.05, 0.01, 0.99];
 
@@ -35,9 +37,18 @@ const stagger = {
   };
 
 function Navbar() {
+
+  const navigate = useNavigate();
+  const location = useLocation();
   return (
     <div>
         <motion.header variants={stagger} className="headerBox">
+        <IconContext.Provider value={{color:"#14da8f", size:"30px", className:"icon_container"}}>
+              <div className='icon' style={{cursor:'pointer'}} id='icon1'>
+        {location.pathname!=='/' && <button style={{ border:'none', backgroundColor:'white' }} onClick={() => navigate(-1)}><FaArrowLeft/></button>}
+       {/* <button style={{ border:'none' }} onClick={() => navigate(-1)}><FaArrowLeft/></button> */}
+       </div>
+            </IconContext.Provider>
         <motion.div className="logo_wrapper" variants={header}>SOFT<span>LINES</span></motion.div>
         <motion.div className='menu_container' variants={stagger}>
           <motion.span variants={header}>

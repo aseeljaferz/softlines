@@ -6,11 +6,13 @@ $white :#fff;
 .contactform{
     background-color: #f0fbf7;
     height: 142vh;
-    font-family: 'Poppins';font-size: 22px;
+    font-family: 'Poppins';
+    font-size: 22px;
 }
 
 #contactUs{
-   /* font-family: 'Courier New', Courier, monospace; */
+   font-family: 'Courier New', Courier, monospace;
+//    font-family: 'poppins'; 
     font-weight: 600;
     font-size: 72px;
     color: #2ab600;
@@ -18,7 +20,7 @@ $white :#fff;
 }
 
 .h4 {
-    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Courier New', Courier, monospace; 
     font-weight: 400;
     font-size: 20px;
     color: #494949;
@@ -116,7 +118,8 @@ $white :#fff;
     box-sizing: border-box;
     cursor: pointer;
     display: flex;
-    font-family: 'Poppins';font-size: 22px;
+    font-family: 'Poppins';
+    font-size: 22px;
     font-size: 1rem;
     justify-content: center;
     line-height: 1.5rem;
