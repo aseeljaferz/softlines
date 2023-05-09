@@ -22,7 +22,7 @@ const Login = () => {
     
     <div id="loginform">
     <FormHeader title="Login" />
-    <div class="row">
+    <div class="row1">
     <input value={uname} onChange={ e => setUname(e.target.value)} placeholder="Enter your username"/>
     <br />
     <input value={password} type="password" onChange={ e => setPassword(e.target.value)} placeholder="Enter your password" />
