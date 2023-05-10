@@ -14,6 +14,7 @@ import { db, storage  } from '../Firebase';
 import './addProduct.css'
 import { useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 
 const AddProduct = () => {
@@ -114,6 +115,17 @@ uploadTask.on('state_changed',
                 <Form.Control type="text" placeholder="Enter product Desc.." id='productDesc' required onChange={handleInput}/>
                 </Form.Group>
 
+                {/* <Form.Check 
+                  type='radio'
+                  id={`default-radio`}
+                  label={`CCTV`}
+                />
+
+                <Form.Check 
+                  type='radio'
+                  id={`default-radio`}
+                  label={`Biometric`}
+                /> */}
 
 
                 <Form.Group className="mb-3" >
