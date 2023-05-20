@@ -69,7 +69,7 @@ function Navbar() {
           <motion.span variants={header} className="email">
             <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
               <div className='icon'><a href="mailto:aathavans.20it@kongu.edu"><IoMailOutline/></a></div>
-              hellow@example.com
+              softlineerode@gmail.com
             </IconContext.Provider>
           </motion.span>
           <motion.span className='menu' variants={header}>
