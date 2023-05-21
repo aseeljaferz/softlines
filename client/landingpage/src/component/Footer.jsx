@@ -7,9 +7,12 @@ import './Footer.scss'
 
 export const Footer = () => {
   return (
-    <div>
+    <div className='footerbody'>
+      
       <footer className='footer'>
+        
         <div className='sb_footer section_padding'>
+          
           <div className='sb_footer-links'>
             <div className='sb_footer-links_div'>
               <h4>For Business</h4>

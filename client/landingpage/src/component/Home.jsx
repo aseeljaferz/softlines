@@ -12,6 +12,7 @@ import {Link} from "react-router-dom";
 
 import {motion} from 'framer-motion';
 import Navbar from './Navbar'
+import Chatbotbutton from './Chat-Bot/Chat_bot_button';
 
 
 
@@ -128,6 +129,7 @@ function Home() {
       <motion.div initial='initial' animate='animate'>
 
       <Navbar/>
+      
 
       <motion.div className='content_wrapper' initial={{opacity:0, scale:0}} animate={{opacity:1, scale:1}} transition={{duration:0.3,ease:easeing}}>
         <div className='left_content_wrapper'>
@@ -202,6 +204,8 @@ function Home() {
       </motion.div>
 
        <Cards/>
+       <Chatbotbutton/>
+       
 
        <Footer/>
 
