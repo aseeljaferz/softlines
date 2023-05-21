@@ -9,7 +9,13 @@ import Login from './component/Login';
 import Admin from './component/Admin';
 import AddProduct from './component/AddProduct';
 import Sidebar from './component/Sidebar';
-import {BrowserRouter ,Router, Routes, Route, Link} from "react-router-dom";
+import {
+  BrowserRouter ,
+  // Router, 
+  Routes, 
+  Route, 
+  // Link,
+} from "react-router-dom";
 import ChatBot from './component/Chat-Bot/Chat_bot';
 import AdminList from './component/AdminList';
 
