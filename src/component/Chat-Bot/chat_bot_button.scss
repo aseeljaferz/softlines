@@ -1,0 +1,56 @@
+
+$light_green :#e3ffea;
+$dark_green :#14da8f;
+$black :#000000;
+$white :#fff;
+
+.App {
+  margin-top: -600px;
+  margin-left: -10%;
+} 
+
+  
+.bot_fixed_align{
+    
+}
+
+.bot_absolute_align{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.bot_button_placement{
+    background-color: #d2f1da;
+    border: none;
+    padding: 1px;
+    font-size: 31px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 2px 4px $black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 70%;
+    margin-left: -50%;
+    
+
+}
+
+.react-chatbot-kit-chat-container{
+    
+}
+
+
+.bot_align{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -34%;
+}
+
+.button{
+    
+}
+
