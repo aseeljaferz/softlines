@@ -19,7 +19,17 @@
     background-size: cover;
     border-radius: 20px;
     background-position: center center;
-    height: 500px;
+    height: 800px;
+    width: 100%;
+}
+.about-img2{
+    position: relative;
+    background-image: url('../assets/about-img2-bio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center center;
+    height: 400px;
     width: 100%;
 }
 .content{
@@ -58,6 +68,9 @@
     }
     .about-img{
         height: 500px;
+    }
+    .about-img2{
+        height: 300px;
     }
     .row .column{
         width: 100%;

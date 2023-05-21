@@ -49,7 +49,7 @@ function Navbar() {
        {/* <button style={{ border:'none' }} onClick={() => navigate(-1)}><FaArrowLeft/></button> */}
        </div>
             </IconContext.Provider>
-        <motion.div className="logo_wrapper" variants={header}>SOFT<span>LINES</span></motion.div>
+        <motion.div className="logo_wrapper" variants={header}>SOFT<span>LINE</span></motion.div>
         <motion.div className='menu_container' variants={stagger}>
           <motion.span variants={header}>
             <IconContext.Provider value={{color:"#14da8f", size:"30px", className:"icon_container"}}>
