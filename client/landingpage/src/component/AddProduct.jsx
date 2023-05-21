@@ -2,9 +2,9 @@ import React,{useState, useEffect} from 'react';
 import {
   addDoc,
   collection,
-  // doc,
+  doc,
   serverTimestamp,
-  // setDoc,
+  setDoc,
 } from "firebase/firestore";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import Button from 'react-bootstrap/Button';
@@ -25,7 +25,7 @@ const AddProduct = () => {
 
   useEffect(()=>{
     const uploadFile = ()=>{
-      // const name = new Date().getTime() + file.name
+      const name = new Date().getTime() + file.name
       const storageRef = ref(storage, file.name)
 
       const uploadTask = uploadBytesResumable(storageRef, file);

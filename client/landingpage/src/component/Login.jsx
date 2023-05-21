@@ -95,24 +95,24 @@ const Login = () => {
 //   <h2 id="headerTitle">{props.title}</h2>
 // );
 
-// const Form = props => (
-//   <div>
+const Form = props => (
+  <div>
    
-//     <div class="row">
-//     <label>Username</label>
-//     <input type="text" placeholder="Enter your username" required/>
-//     <br />
-//     <label>Password</label>
-//     <input type="password" placeholder="Enter your password" required/>
+    <div class="row">
+    <label>Username</label>
+    <input type="text" placeholder="Enter your username" required/>
+    <br />
+    <label>Password</label>
+    <input type="password" placeholder="Enter your password" required/>
 
-//     <div id="button">
-//       <input type="submit" value="Login" />
-//     </div>
+    <div id="button">
+      <input type="submit" value="Login" />
+    </div>
 
-//     </div>  
+    </div>  
     
-//   </div>
-// );
+  </div>
+);
 
 
 export default Login;
