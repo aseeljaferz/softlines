@@ -92,6 +92,8 @@ const About = () => {
             <div className="column">
                <motion.span variants={fadeInUpImg}>
                 <div className="about-img"></div>
+                <br />
+                <div className="about-img2"></div>
                 </motion.span>
             </div>
             <div className="column">
@@ -106,9 +108,12 @@ const About = () => {
                             <h2>All you want to know about us!</h2>
                         </motion.div>
                         <motion.div variants={fadeInUpContent}>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas officiis tempora quasi nobis, delectus, voluptates sint aut veniam amet explicabo repellat, nulla impedit. Magnam quasi voluptatem odio veritatis, mollitia ab.</p>
+                            <p>Welcome to Soft Line, your trusted source for state-of-the-art security devices. We specialize in providing cutting-edge solutions to protect your home, business, and loved ones. With a passion for innovation and a commitment to excellence, we are dedicated to delivering top-quality security products that bring you peace of mind.</p>
                             <h3>Our Products</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis sapiente nesciunt odit est facere. Soluta ipsa officiis tempora nihil, explicabo architecto dolorum  iste sint suscipit perferendis aperiam, omnis adipisci!</p>
+                            <p>We offer a wide range of security devices designed to meet various needs and scenarios. From robust surveillance cameras and smart locks to motion sensors and alarm systems, our products are meticulously selected to provide you with the highest level of security. Each device undergoes rigorous testing to ensure durability, reliability, and seamless integration into your existing security infrastructure.</p>
+                            <h3>Quality and Reliability</h3>
+                            <p>
+                            At Soft Line, we understand that your security cannot be compromised. That's why we prioritize quality and reliability in every product we offer. Our security devices are sourced from trusted manufacturers known for their commitment to excellence. We rigorously test and evaluate each device to ensure it meets our stringent standards before making it available to our valued customers.</p>
                         </motion.div>
                         </div>
                     </div>
