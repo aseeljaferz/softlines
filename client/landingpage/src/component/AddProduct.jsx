@@ -79,7 +79,7 @@ uploadTask.on('state_changed',
         ...data,
         timeStamp: serverTimestamp()
       });
-      navigate(-1)
+      navigate('/list')
     }
     catch(err){
       console.log(err)
@@ -114,19 +114,19 @@ uploadTask.on('state_changed',
                 <Form.Control type="text" placeholder="Enter product Desc.." id='productDesc' required onChange={handleInput}/>
                 </Form.Group>
 
-                {/* <Form.Check 
-                  type='radio'
-                  id={`default-radio`}
-                  label={`CCTV`}
-                />
+                <br/>
 
-                <Form.Check 
-                  type='radio'
-                  id={`default-radio`}
-                  label={`Biometric`}
-                /> */}
+                <label for="cars">Choose a category:</label>
+                
+                  <select name="category" id="category" required onChange={handleInput}>
+                    <option value="cctv">CCTV</option>
+                    <option value="biometric">Biometric</option>
+                    <option value="hardware">Comp. Hardware</option>
+                    <option value="other">Other..</option>
+                  </select>
 
-
+                  <br/>
+                  <br/>
                 <Form.Group className="mb-3" >
                 <Form.Label>Product Image</Form.Label>
                 <Form.Control type="file" placeholder="product Image" onChange={(e) => setFile(e.target.files[0])} required/>

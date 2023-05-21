@@ -67,6 +67,7 @@ const AdminList = () => {
           <th style={{textAlign:'center'}}>Product Name</th>
           <th style={{textAlign:'center'}}>Product Desc</th>
           <th style={{textAlign:'center'}}>Price</th>
+          <th style={{textAlign:'center'}}>Category</th>
           <th style={{textAlign:'center'}}>Image</th>
           <th style={{textAlign:'center'}}>Action</th>
         </tr>
@@ -80,6 +81,7 @@ const AdminList = () => {
           <td>{product.productName}</td>
           <td>{product.productDesc}</td>
           <td>{product.productPrice}</td>
+          <td>{product.category}</td>
           <td><img src={product.img || "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"} className='product-img-table' alt="product-img"/> </td>
           <td> 
           <br />
