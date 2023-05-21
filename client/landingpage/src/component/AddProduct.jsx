@@ -7,14 +7,13 @@ import {
   setDoc,
 } from "firebase/firestore";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import {FaFileUpload} from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { db, storage  } from '../Firebase';
 import './addProduct.css'
 import { useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-import Dropdown from 'react-bootstrap/Dropdown';
+
 
 
 const AddProduct = () => {

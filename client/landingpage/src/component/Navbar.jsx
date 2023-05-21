@@ -49,7 +49,7 @@ function Navbar() {
        {/* <button style={{ border:'none' }} onClick={() => navigate(-1)}><FaArrowLeft/></button> */}
        </div>
             </IconContext.Provider>
-        <motion.div className="logo_wrapper" variants={header}>SOFT<span>LINES</span></motion.div>
+        <motion.div className="logo_wrapper" variants={header}>SOFT<span>LINE</span></motion.div>
         <motion.div className='menu_container' variants={stagger}>
           <motion.span variants={header}>
             <IconContext.Provider value={{color:"#14da8f", size:"30px", className:"icon_container"}}>
@@ -69,7 +69,7 @@ function Navbar() {
           <motion.span variants={header} className="email">
             <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
               <div className='icon'><a href="mailto:aathavans.20it@kongu.edu"><IoMailOutline/></a></div>
-              hellow@example.com
+              softlineerode@gmail.com
             </IconContext.Provider>
           </motion.span>
           <motion.span className='menu' variants={header}>

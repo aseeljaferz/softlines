@@ -142,7 +142,7 @@ function Home() {
               <motion.span variants={letter}>I</motion.span>
               <motion.span variants={letter}>N</motion.span>
               <motion.span variants={letter}>E</motion.span>
-              <motion.span variants={letter}>S</motion.span>
+
               <motion.span variants={letter} className="second">c</motion.span>
               <motion.span variants={letter}>o</motion.span>
               <motion.span variants={letter}>m</motion.span>
@@ -172,7 +172,7 @@ function Home() {
             </motion.span>
             </div>
           </motion.h2>
-          <motion.p variants={fadeInUp} className="quote">ALerting today for Better Tomorrow <br />Here, Security Never Sleeps</motion.p>
+          <motion.p variants={fadeInUp} className="quote">Alerting today for Better Tomorrow <br />Here, Security Never Sleeps</motion.p>
           <motion.div className='btn_group' variants={stagger}>
             <motion.div className='btn btn_primary' variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}} ><Link to="/chatbot" className="chatbot-link">Chat</Link>
               <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
