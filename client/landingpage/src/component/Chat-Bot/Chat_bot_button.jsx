@@ -21,7 +21,11 @@ function Chatbotbutton() {
             </button>
             </div>
             <div className='bot_body'>
-                {change &&
+                {change ?
+                    <div>
+                        
+                    </div>
+                    :
                     <div className='App'>
                         <div style={{maxWidth: "300px"}}>
                             <Chatbot 
