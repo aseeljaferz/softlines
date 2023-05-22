@@ -35,7 +35,7 @@
 }
 .btn-82 {
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -47,7 +47,7 @@
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  /* -webkit-mask-image: -webkit-radial-gradient(#000, #fff); */
   padding: 0;
 }
 .btn-82:disabled {
@@ -58,7 +58,7 @@
 }
 .btn-82 svg {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .btn-82 [hidden] {
   display: none;
