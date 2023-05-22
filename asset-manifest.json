@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/softlines/static/css/main.dec6748a.css",
+    "main.js": "/softlines/static/js/main.cee5f684.js",
+    "static/js/496.0718fa68.chunk.js": "/softlines/static/js/496.0718fa68.chunk.js",
+    "static/media/about-img2-bio.jpg": "/softlines/static/media/about-img2-bio.3beba1530212d3081268.jpg",
+    "static/media/desktop.png": "/softlines/static/media/desktop.216d56db0ab037063414.png",
+    "static/media/about-image.jpeg": "/softlines/static/media/about-image.6aa2a6ee26e5e4ed4687.jpeg",
+    "static/media/biometric-1.jpg": "/softlines/static/media/biometric-1.7c30941e6ba395856637.jpg",
+    "static/media/cctv-4.webp": "/softlines/static/media/cctv-4.905e25e06e3124db4ea4.webp",
+    "static/media/cctv-5.avif": "/softlines/static/media/cctv-5.451bcde423cecab04576.avif",
+    "static/media/biometric-2.jpg": "/softlines/static/media/biometric-2.173ec4588bd271e1c467.jpg",
+    "static/media/cctv-3.webp": "/softlines/static/media/cctv-3.969c232594404516eda8.webp",
+    "static/media/biometric-6.jpg": "/softlines/static/media/biometric-6.a592988dc75b9a628b14.jpg",
+    "static/media/biometric-5.webp": "/softlines/static/media/biometric-5.f88198c00a072f0e004a.webp",
+    "static/media/biometric-4.webp": "/softlines/static/media/biometric-4.ee882be03bab31f545bd.webp",
+    "static/media/cctv-1.avif": "/softlines/static/media/cctv-1.4cbcf8a805a0fd0088a1.avif",
+    "static/media/biometric-3.webp": "/softlines/static/media/biometric-3.06d6f2bc10dc0d1b2dde.webp",
+    "index.html": "/softlines/index.html",
+    "main.dec6748a.css.map": "/softlines/static/css/main.dec6748a.css.map",
+    "main.cee5f684.js.map": "/softlines/static/js/main.cee5f684.js.map",
+    "496.0718fa68.chunk.js.map": "/softlines/static/js/496.0718fa68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dec6748a.css",
+    "static/js/main.cee5f684.js"
+  ]
+}
