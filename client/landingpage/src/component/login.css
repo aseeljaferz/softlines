@@ -5,16 +5,16 @@
   /* fallback for old browsers */
   background: rgb(6,36,0);
   background: linear-gradient(90deg, rgba(6,36,0,0.5466561624649859) 0%, rgba(0,255,72,0.7819502801120448) 0%, rgba(0,255,89,0.5354516806722689) 100%);
-  padding: 5.72%;
+  padding: 7.35%;
 }
 
 @media screen and (max-width:850px){
   .login_body{
-    padding-bottom: 56%;
+    padding-bottom: 53%;
   }
 
   .column{
-    margin-top: 30%;
+    margin-top: 35%;
   }
 }
 
